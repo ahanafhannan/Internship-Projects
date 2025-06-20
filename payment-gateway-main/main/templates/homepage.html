@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bkash Payment Gateway</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      width: 500px;
+      border: 2px solid black;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .pay-button {
+      background-color: #263238;
+      color: white;
+      border: black;
+      text-decoration :none;
+    }
+
+    .add-button {
+      background-color: #263238;
+      color: white;
+      border: black;
+      text-decoration :none;
+    }
+
+    .pay-button:hover {
+      background-color: #263238;
+    }
+
+    .add-button:hover {
+      background-color: #263238;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 300px; width: 500px; border: 2px solid black; box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); background-color: #E0E0E0;">
+    <h1>Payment Gateway (Test)</h1>
+    <a href="http://127.0.0.1:8000/main/grant" class="button pay-button">Pay With bkash</a>
+    <a href="http://127.0.0.1:8000/main/create_agreement" class="button add-button">Pay With Agreement</a>
+    <a href="http://127.0.0.1:8000/main/" class="button add-button">Go to Homepage</a>
+  </div>
+  
+
+</body>
+</html>
+
